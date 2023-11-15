@@ -1,0 +1,15 @@
+C:\Users\User\Desktop\BetaPlan\C#\gameDeveloperl\bin\Debug\net6.0\gameDeveloperl.exe
+C:\Users\User\Desktop\BetaPlan\C#\gameDeveloperl\bin\Debug\net6.0\gameDeveloperl.deps.json
+C:\Users\User\Desktop\BetaPlan\C#\gameDeveloperl\bin\Debug\net6.0\gameDeveloperl.runtimeconfig.json
+C:\Users\User\Desktop\BetaPlan\C#\gameDeveloperl\bin\Debug\net6.0\gameDeveloperl.dll
+C:\Users\User\Desktop\BetaPlan\C#\gameDeveloperl\bin\Debug\net6.0\gameDeveloperl.pdb
+C:\Users\User\Desktop\BetaPlan\C#\gameDeveloperl\obj\Debug\net6.0\gameDeveloperl.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\BetaPlan\C#\gameDeveloperl\obj\Debug\net6.0\gameDeveloperl.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\BetaPlan\C#\gameDeveloperl\obj\Debug\net6.0\gameDeveloperl.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\BetaPlan\C#\gameDeveloperl\obj\Debug\net6.0\gameDeveloperl.AssemblyInfo.cs
+C:\Users\User\Desktop\BetaPlan\C#\gameDeveloperl\obj\Debug\net6.0\gameDeveloperl.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\BetaPlan\C#\gameDeveloperl\obj\Debug\net6.0\gameDeveloperl.dll
+C:\Users\User\Desktop\BetaPlan\C#\gameDeveloperl\obj\Debug\net6.0\refint\gameDeveloperl.dll
+C:\Users\User\Desktop\BetaPlan\C#\gameDeveloperl\obj\Debug\net6.0\gameDeveloperl.pdb
+C:\Users\User\Desktop\BetaPlan\C#\gameDeveloperl\obj\Debug\net6.0\gameDeveloperl.genruntimeconfig.cache
+C:\Users\User\Desktop\BetaPlan\C#\gameDeveloperl\obj\Debug\net6.0\ref\gameDeveloperl.dll
