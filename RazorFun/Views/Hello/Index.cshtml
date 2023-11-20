@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>String List Rendering</title>
+</head>
+<body>
+    <h1>Here are some delicious food!</h1>
+
+@{    
+    List<string> StringList = new List<string>() {"Apple Pie", "Pizza", "Cinnamon Rolls", "Lasogna", "Donuts", "Chocolate Cake", "Burritos"};            
+    foreach(string word in StringList)    
+    {        
+        
+        <p>@word</p>    
+    }
+}
+
+</body>
+
+</html>
