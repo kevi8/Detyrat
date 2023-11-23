@@ -21,3 +21,4 @@ C:\Users\User\Desktop\netWorks\RazorFun\obj\Debug\net6.0\refint\RazorFun.dll
 C:\Users\User\Desktop\netWorks\RazorFun\obj\Debug\net6.0\RazorFun.pdb
 C:\Users\User\Desktop\netWorks\RazorFun\obj\Debug\net6.0\RazorFun.genruntimeconfig.cache
 C:\Users\User\Desktop\netWorks\RazorFun\obj\Debug\net6.0\ref\RazorFun.dll
+C:\Users\User\Desktop\netWorks\RazorFun\bin\Debug\net6.0\RazorFun.staticwebassets.runtime.json

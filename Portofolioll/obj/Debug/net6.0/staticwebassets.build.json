@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "PXhIYBE9aCwh9KYsvk0ReD8Y2tW8+2LqfCPu4cypGWE=",
+  "Source": "Portofolioll",
+  "BasePath": "_content/Portofolioll",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Portofolioll\\wwwroot",
+      "Source": "Portofolioll",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\netWorks\\Portofolioll\\wwwroot\\",
+      "BasePath": "_content/Portofolioll",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\netWorks\\Portofolioll\\wwwroot\\Css\\Style.css",
+      "SourceId": "Portofolioll",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\netWorks\\Portofolioll\\wwwroot\\",
+      "BasePath": "_content/Portofolioll",
+      "RelativePath": "Css/Style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Css\\Style.css"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\netWorks\\Portofolioll\\wwwroot\\images\\hp.png",
+      "SourceId": "Portofolioll",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\netWorks\\Portofolioll\\wwwroot\\",
+      "BasePath": "_content/Portofolioll",
+      "RelativePath": "images/hp.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\hp.png"
+    }
+  ]
+}

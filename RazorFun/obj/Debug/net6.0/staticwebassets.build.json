@@ -1,11 +1,37 @@
 {
   "Version": 1,
-  "Hash": "67Iy9U9TI71CKUZHiHflfo5iT70EMBS/67KHTHHBrzU=",
+  "Hash": "K+9259+UfKhymXRB20nLTEobYuBAkEOdjrtGXGyT4kY=",
   "Source": "RazorFun",
   "BasePath": "_content/RazorFun",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "RazorFun\\wwwroot",
+      "Source": "RazorFun",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\netWorks\\RazorFun\\wwwroot\\",
+      "BasePath": "_content/RazorFun",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\netWorks\\RazorFun\\wwwroot\\css\\style.css",
+      "SourceId": "RazorFun",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\netWorks\\RazorFun\\wwwroot\\",
+      "BasePath": "_content/RazorFun",
+      "RelativePath": "css/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
+    }
+  ]
 }
