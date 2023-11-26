@@ -1,0 +1,11 @@
+@model YourNamespace.FormData
+
+<h2>Results</h2>
+
+<div>
+    <p>Name: @Model.Name</p>
+    <p>Email: @Model.Email</p>
+    <p>Comment: @if (string.IsNullOrWhiteSpace(Model.Comment)) { <span style="color: gray;">No comment</span>; } else { @Model.Comment; }</p>
+</div>
+
+@Html.ActionLink("Go Back", "Index")
