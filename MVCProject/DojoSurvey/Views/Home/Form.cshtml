@@ -1,0 +1,46 @@
+﻿@{
+    ViewData["Title"] = "Dojo Survey";
+    Layout = "/Views/Shared/_Layout.cshtml";
+}
+@model DojoSurvey.Models.Survey
+<div class="container py-4">
+    <form id="contactForm" action="survey" method="POST">
+        <div class="mb-3">
+            <label class="form-label" for="name">Name</label>
+            <input class="form-control" id="name" type="text" placeholder="Name"/>
+        </div>
+        <div class="mb-3">
+            <label for="location">Location</label>
+            <select class="form-select" aria-label="Default select example">
+                <option selected>Select an option</option>
+                <option value="Bellevue">Bellevue</option>
+                <option value="Boise">Boise</option>
+                <option value="Chicago">Chicago</option>
+                <option value="Dallas">Dallas</option>
+                <option value="LA">LA</option>
+                <option value="San-Jose">San Jose</option>
+                <option value="Online">Online</option>
+            </select>
+        </div>
+            <label for="language">Language</label>
+            <select class="form-select" aria-label="Default select example">
+                <option selected>Select an option</option>
+                <option value="Python">Python</option>
+                <option value="SQL">SQL</option>
+                <option value="Java">Java</option>
+                <option value="R">R</option>
+                <option value="Visual-Basic">Visual-Basic</option>
+                <option value="Mern">MERN</option>
+                <option value="CSharp">C#</option>
+                <option value="Ruby">Ruby</option>
+            </select>
+        <div class="mb-3">
+            <label class="form-label" for="message">Message</label>
+            <textarea class="form-control" id="message" type="text" placeholder="Message" style="height: 10rem;"></textarea>
+        </div>
+        <div class="d-grid">
+            <button class="btn btn-primary btn-lg" id="submitButton" type="submit" name="submit">Submit</button>
+        </div>
+    </form>
+
+</div>

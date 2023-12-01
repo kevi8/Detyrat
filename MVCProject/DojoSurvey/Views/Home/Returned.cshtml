@@ -1,0 +1,11 @@
+﻿@{
+    ViewData["title"] = "Dojo Survey - Results";
+    Layout = "/Views/Shared/_Layout.cshtml";
+}
+@model DojoSurvey.Models.Survey
+<h1>The Information You've Submitted:</h1>
+
+<h3>Name: @Model.Name</h3>
+<h3>Dojo Location: @Model.Location</h3>
+<h3>Favorite Language: @Model.Language</h3>
+<h3>Comment: @Model.Message</h3>
