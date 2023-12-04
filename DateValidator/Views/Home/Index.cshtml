@@ -1,0 +1,13 @@
+﻿@model Time
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+<form action="validate" method="post">
+<div class="text-center">
+    <h1 class="display-4">Vendos nje Date</h1>
+    <span asp-validation-for="dateTime" class="text-danger"></span>
+    <input type="date" asp-for="dateTime">
+</div>
+<button type="submit" class="btn btn-primary">Submit</button>
+</form>
