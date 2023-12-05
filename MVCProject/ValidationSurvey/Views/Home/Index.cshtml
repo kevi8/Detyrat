@@ -1,0 +1,36 @@
+﻿@model Users
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+<div class="container-contact100">
+<form action="/data" method="post">
+    <div class="form-group" id="dropDownSelect1"> 
+         <span asp-validation-for="fname" class="text-danger"></span>
+        <label asp-for="fname">Your Name</label>
+        <input  asp-for="fname" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+            placeholder="Enter email">
+        
+    </div>
+    <label asp-for="location">Location</label>
+    <select class="form-select" aria-label="Default select example" asp-for="location">
+        <option value="San Jose">San Jose</option>
+        <option value="Tirana">Tirana</option>
+        <option value="Durres">Durres</option>
+        <option value="Vlore">Vlore</option>
+    </select>
+    <label asp-for="fav">Favourite Language</label>
+    <select class="form-select" aria-label="Default select example" asp-for="fav">
+        <option value="C#">C#</option>
+        <option value="Java">Java</option>
+        <option value="Python">Python</option>
+        <option value="JS">JS</option>
+    </select>
+    <div class="mb-3">
+        <span asp-validation-for="comment" class="text-danger"></span>
+  <label asp-for="comment" class="form-label">Comment (Optional)</label>
+  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" asp-for="comment"></textarea>
+</div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+</div>
