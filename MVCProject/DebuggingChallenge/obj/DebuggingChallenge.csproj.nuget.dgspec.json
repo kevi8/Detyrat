@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\USER\\Documents\\betaPlan\\44 Programime\\ASP .NET\\DebuggingChallenge\\DebuggingChallenge.csproj": {}
+    "C:\\Users\\User\\Desktop\\netWorks\\MVCProject\\DebuggingChallenge\\DebuggingChallenge.csproj": {}
   },
   "projects": {
-    "C:\\Users\\USER\\Documents\\betaPlan\\44 Programime\\ASP .NET\\DebuggingChallenge\\DebuggingChallenge.csproj": {
+    "C:\\Users\\User\\Desktop\\netWorks\\MVCProject\\DebuggingChallenge\\DebuggingChallenge.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USER\\Documents\\betaPlan\\44 Programime\\ASP .NET\\DebuggingChallenge\\DebuggingChallenge.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\netWorks\\MVCProject\\DebuggingChallenge\\DebuggingChallenge.csproj",
         "projectName": "DebuggingChallenge",
-        "projectPath": "C:\\Users\\USER\\Documents\\betaPlan\\44 Programime\\ASP .NET\\DebuggingChallenge\\DebuggingChallenge.csproj",
-        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USER\\Documents\\betaPlan\\44 Programime\\ASP .NET\\DebuggingChallenge\\obj\\",
+        "projectPath": "C:\\Users\\User\\Desktop\\netWorks\\MVCProject\\DebuggingChallenge\\DebuggingChallenge.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\netWorks\\MVCProject\\DebuggingChallenge\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
