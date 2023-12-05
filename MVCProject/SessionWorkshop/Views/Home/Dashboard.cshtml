@@ -1,0 +1,40 @@
+﻿@{
+    ViewData["Title"] = "Dashboard";
+}
+
+<header>
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <div class="container-fluid">
+            <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Hello, @Context.Session.GetString("Username")</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+                <form asp-action="Clear" method="post">
+                    <button type="submit" class="btn btn-danger">Log Out</button>
+                </form>
+        </div>
+    </nav>
+</header>
+
+<div class="text-center">
+    <h1>@Context.Session.GetInt32("Number")</h1>
+    <div class="buttons mt-5">
+        <div class="d-flex justify-content-around">
+            <form asp-action="Increment" method="post">
+                <button type="submit" class="btn btn-warning p-4">+1</button>
+            </form>
+            <form asp-action="Decrement" method="post">
+                <button type="submit" class="btn btn-primary p-4">-1</button>
+            </form>
+        </div>
+        <div class="d-flex justify-content-around mt-5">
+            <form asp-action="Doublee" method="post">
+                <button type="submit" class="btn btn-danger p-4">x2</button>
+            </form>
+            <form asp-action="Randomize" method="post">
+                <button type="submit" class="btn btn-success p-4">+Random</button>
+            </form>
+        </div>
+    </div>
+</di

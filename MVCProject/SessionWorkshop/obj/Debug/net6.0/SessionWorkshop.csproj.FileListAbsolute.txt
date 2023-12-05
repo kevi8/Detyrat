@@ -1,0 +1,52 @@
+C:\Users\USER\Documents\betaPlan\44 Programime\ASP .NET\SessionWorkshop\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\USER\Documents\betaPlan\44 Programime\ASP .NET\SessionWorkshop\bin\Debug\net6.0\appsettings.json
+C:\Users\USER\Documents\betaPlan\44 Programime\ASP .NET\SessionWorkshop\bin\Debug\net6.0\SessionWorkshop.staticwebassets.runtime.json
+C:\Users\USER\Documents\betaPlan\44 Programime\ASP .NET\SessionWorkshop\bin\Debug\net6.0\SessionWorkshop.exe
+C:\Users\USER\Documents\betaPlan\44 Programime\ASP .NET\SessionWorkshop\bin\Debug\net6.0\SessionWorkshop.deps.json
+C:\Users\USER\Documents\betaPlan\44 Programime\ASP .NET\SessionWorkshop\bin\Debug\net6.0\SessionWorkshop.runtimeconfig.json
+C:\Users\USER\Documents\betaPlan\44 Programime\ASP .NET\SessionWorkshop\bin\Debug\net6.0\SessionWorkshop.dll
+C:\Users\USER\Documents\betaPlan\44 Programime\ASP .NET\SessionWorkshop\bin\Debug\net6.0\SessionWorkshop.pdb
+C:\Users\USER\Documents\betaPlan\44 Programime\ASP .NET\SessionWorkshop\obj\Debug\net6.0\SessionWorkshop.csproj.AssemblyReference.cache
+C:\Users\USER\Documents\betaPlan\44 Programime\ASP .NET\SessionWorkshop\obj\Debug\net6.0\SessionWorkshop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Documents\betaPlan\44 Programime\ASP .NET\SessionWorkshop\obj\Debug\net6.0\SessionWorkshop.AssemblyInfoInputs.cache
+C:\Users\USER\Documents\betaPlan\44 Programime\ASP .NET\SessionWorkshop\obj\Debug\net6.0\SessionWorkshop.AssemblyInfo.cs
+C:\Users\USER\Documents\betaPlan\44 Programime\ASP .NET\SessionWorkshop\obj\Debug\net6.0\SessionWorkshop.csproj.CoreCompileInputs.cache
+C:\Users\USER\Documents\betaPlan\44 Programime\ASP .NET\SessionWorkshop\obj\Debug\net6.0\SessionWorkshop.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\USER\Documents\betaPlan\44 Programime\ASP .NET\SessionWorkshop\obj\Debug\net6.0\SessionWorkshop.RazorAssemblyInfo.cache
+C:\Users\USER\Documents\betaPlan\44 Programime\ASP .NET\SessionWorkshop\obj\Debug\net6.0\SessionWorkshop.RazorAssemblyInfo.cs
+C:\Users\USER\Documents\betaPlan\44 Programime\ASP .NET\SessionWorkshop\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\USER\Documents\betaPlan\44 Programime\ASP .NET\SessionWorkshop\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\USER\Documents\betaPlan\44 Programime\ASP .NET\SessionWorkshop\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\USER\Documents\betaPlan\44 Programime\ASP .NET\SessionWorkshop\obj\Debug\net6.0\scopedcss\bundle\SessionWorkshop.styles.css
+C:\Users\USER\Documents\betaPlan\44 Programime\ASP .NET\SessionWorkshop\obj\Debug\net6.0\scopedcss\projectbundle\SessionWorkshop.bundle.scp.css
+C:\Users\USER\Documents\betaPlan\44 Programime\ASP .NET\SessionWorkshop\obj\Debug\net6.0\SessionWorkshop.dll
+C:\Users\USER\Documents\betaPlan\44 Programime\ASP .NET\SessionWorkshop\obj\Debug\net6.0\refint\SessionWorkshop.dll
+C:\Users\USER\Documents\betaPlan\44 Programime\ASP .NET\SessionWorkshop\obj\Debug\net6.0\SessionWorkshop.pdb
+C:\Users\USER\Documents\betaPlan\44 Programime\ASP .NET\SessionWorkshop\obj\Debug\net6.0\SessionWorkshop.genruntimeconfig.cache
+C:\Users\USER\Documents\betaPlan\44 Programime\ASP .NET\SessionWorkshop\obj\Debug\net6.0\ref\SessionWorkshop.dll
+C:\Users\User\Desktop\netWorks\MVCProject\SessionWorkshop\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\User\Desktop\netWorks\MVCProject\SessionWorkshop\bin\Debug\net6.0\appsettings.json
+C:\Users\User\Desktop\netWorks\MVCProject\SessionWorkshop\bin\Debug\net6.0\SessionWorkshop.staticwebassets.runtime.json
+C:\Users\User\Desktop\netWorks\MVCProject\SessionWorkshop\bin\Debug\net6.0\SessionWorkshop.exe
+C:\Users\User\Desktop\netWorks\MVCProject\SessionWorkshop\bin\Debug\net6.0\SessionWorkshop.deps.json
+C:\Users\User\Desktop\netWorks\MVCProject\SessionWorkshop\bin\Debug\net6.0\SessionWorkshop.runtimeconfig.json
+C:\Users\User\Desktop\netWorks\MVCProject\SessionWorkshop\bin\Debug\net6.0\SessionWorkshop.dll
+C:\Users\User\Desktop\netWorks\MVCProject\SessionWorkshop\bin\Debug\net6.0\SessionWorkshop.pdb
+C:\Users\User\Desktop\netWorks\MVCProject\SessionWorkshop\obj\Debug\net6.0\SessionWorkshop.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\netWorks\MVCProject\SessionWorkshop\obj\Debug\net6.0\SessionWorkshop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\netWorks\MVCProject\SessionWorkshop\obj\Debug\net6.0\SessionWorkshop.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\netWorks\MVCProject\SessionWorkshop\obj\Debug\net6.0\SessionWorkshop.AssemblyInfo.cs
+C:\Users\User\Desktop\netWorks\MVCProject\SessionWorkshop\obj\Debug\net6.0\SessionWorkshop.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\netWorks\MVCProject\SessionWorkshop\obj\Debug\net6.0\SessionWorkshop.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\User\Desktop\netWorks\MVCProject\SessionWorkshop\obj\Debug\net6.0\SessionWorkshop.RazorAssemblyInfo.cache
+C:\Users\User\Desktop\netWorks\MVCProject\SessionWorkshop\obj\Debug\net6.0\SessionWorkshop.RazorAssemblyInfo.cs
+C:\Users\User\Desktop\netWorks\MVCProject\SessionWorkshop\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\User\Desktop\netWorks\MVCProject\SessionWorkshop\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\User\Desktop\netWorks\MVCProject\SessionWorkshop\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\User\Desktop\netWorks\MVCProject\SessionWorkshop\obj\Debug\net6.0\scopedcss\bundle\SessionWorkshop.styles.css
+C:\Users\User\Desktop\netWorks\MVCProject\SessionWorkshop\obj\Debug\net6.0\scopedcss\projectbundle\SessionWorkshop.bundle.scp.css
+C:\Users\User\Desktop\netWorks\MVCProject\SessionWorkshop\obj\Debug\net6.0\SessionWorkshop.dll
+C:\Users\User\Desktop\netWorks\MVCProject\SessionWorkshop\obj\Debug\net6.0\refint\SessionWorkshop.dll
+C:\Users\User\Desktop\netWorks\MVCProject\SessionWorkshop\obj\Debug\net6.0\SessionWorkshop.pdb
+C:\Users\User\Desktop\netWorks\MVCProject\SessionWorkshop\obj\Debug\net6.0\SessionWorkshop.genruntimeconfig.cache
+C:\Users\User\Desktop\netWorks\MVCProject\SessionWorkshop\obj\Debug\net6.0\ref\SessionWorkshop.dll
