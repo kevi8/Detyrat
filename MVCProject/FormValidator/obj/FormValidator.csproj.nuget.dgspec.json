@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\FormValidator\\FormValidator.csproj": {}
+    "C:\\Users\\User\\Desktop\\netWorks\\MVCProject\\FormValidator\\FormValidator.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\FormValidator\\FormValidator.csproj": {
+    "C:\\Users\\User\\Desktop\\netWorks\\MVCProject\\FormValidator\\FormValidator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\FormValidator\\FormValidator.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\netWorks\\MVCProject\\FormValidator\\FormValidator.csproj",
         "projectName": "FormValidator",
-        "projectPath": "C:\\Users\\User\\Desktop\\FormValidator\\FormValidator.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\netWorks\\MVCProject\\FormValidator\\FormValidator.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\FormValidator\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\netWorks\\MVCProject\\FormValidator\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
