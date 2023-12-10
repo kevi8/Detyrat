@@ -1,0 +1,32 @@
+﻿@model List<Dish>
+    
+@{
+    ViewData["Title"] = "Home Page";
+}
+<h2>Welcome to CRUDelicious</h2>
+
+<div class="text-center">
+    <div class="col-6">
+        <table class="table table-dark">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Dish</th>
+      <th scope="col">Chef</th>
+    
+    </tr>
+  </thead>
+  <tbody>
+    @foreach(var item in @Model){
+
+        <tr>
+      <th scope="row">@item.DishId</th>
+      <td><a asp-action="details" asp-route-itemid="@item.DishId">@item.Name</a></td>
+      <td>@item.Chef</td>
+    </tr>
+    }
+  
+  </tbody>
+</table>
+    </div>
+</div>

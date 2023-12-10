@@ -1,0 +1,37 @@
+@model Dish
+<h2>Edit this Dish</h2>
+<form asp-action="Update" method="post" asp-route-itemId="@Model.DishId">
+    <div>
+        <label asp-for="Name"></label>
+        <input asp-for="Name">
+        <span asp-validation-for="Name"></span>
+    </div>
+    <div>
+        <label asp-for="Chef"></label>
+        <input asp-for="Chef">
+        <span asp-validation-for="Chef"></span>
+    </div>
+    <div>
+        <label asp-for="Testines"></label>
+        <select  asp-for="Testines">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+        </select>
+        <span asp-validation-for="Testines"></span>
+    </div>
+    <div>
+        <label asp-for="Calories"></label>
+        <input asp-for="Calories">
+        <span asp-validation-for="Calories"></span>
+    </div>
+    <div>
+        <label asp-for="Description"></label>
+        <input asp-for="Description">
+        <span asp-validation-for="Description"></span>
+    </div>
+    <input type="submit" value="edit">
+</form>
