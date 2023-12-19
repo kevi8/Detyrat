@@ -1,0 +1,86 @@
+﻿@model Post
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="row text-center">
+    
+    <div class="col-2">
+        <form asp-action="CreatePost" method="Post">
+            <div>
+                <label asp-for="Content"></label>
+                <input asp-for="Content">
+                <span asp-validation-for="Content"> </span>
+            </div>
+            <input type="submit" >
+        </form>
+    </div>
+    <div class="col-5">
+        <h2>My Posts</h2>
+        <table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Creator</th>
+      <th scope="col">Content</th>
+      <th scope="col">Updated At</th>
+    </tr>
+  </thead>
+  <tbody>
+@foreach(var item in ViewBag.userPost){
+    <tr>
+      <th scope="row">1</th>
+      <td>ME</td>
+      <td><a asp-action="ShowComments" asp-route-id="@item.PostId">@item.Content </a></td>
+      <td>@item.UpdatedAt</td>
+    </tr>
+}
+    
+  
+  </tbody>
+</table>
+    </div>
+      <div class="col-5">
+        <h2>Other Posts</h2>
+        <table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Creator</th>
+      <th scope="col">Content</th>
+      <th scope="col">Updated At</th>
+       <th scope="col">Nr Likes</th>
+      <th scope="col">Action</th>
+    </tr>
+  </thead>
+  <tbody>
+@foreach(var item in ViewBag.otherPost){
+    <tr>
+      <th scope="row">1</th>
+      <td>@item.Creator.Username</td>
+      <td><a asp-action="ShowComments" asp-route-id="@item.PostId">@item.Content </a></td>
+      <td>@item.UpdatedAt</td>
+      <td> @item.Likes.Count</td>
+      @{ int c = 0;}
+      @foreach(var like in item.Likes){
+        if( like.UserId == ViewBag.userId ){
+                c++;
+        }
+      }
+      @{ if(c <=0){
+<td> <a asp-action="like" asp-route-id="@item.PostId" class="btn btn-primary">Like</a></td>
+      }else{
+       <td> <a asp-action="dislike" asp-route-id="@item.PostId" class="btn btn-danger">Dislike</a> </td>
+      }
+  }
+     
+     
+    </tr>
+}
+    
+  
+  </tbody>
+</table>
+    </div>
+
+</div>

@@ -1,0 +1,14 @@
+@model Comment
+@using Microsoft.AspNetCore.Http
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+
+<form asp-action="PostComment" asp-controller="Home" method="post">
+    <div class="form-group">
+    <label asp-for="@Model.Content">Enter Your Comment</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" asp-for="@Model.Content"></textarea>
+    <span asp-validation-for="@Model.Content"></span>
+  </div>
+  <input type="hidden" asp-for="@Model.PostId" value="@ViewBag.CommenterId">
+  <input type="hidden" asp-for="@Model.UserId" value="@HttpContextAccessor.HttpContext.Session.GetInt32("UserId")">
+  <input type="submit" class="btn btn-primary mt-5">
+</form>

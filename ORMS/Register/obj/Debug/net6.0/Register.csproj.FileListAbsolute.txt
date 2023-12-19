@@ -1,0 +1,140 @@
+/Users/fciku/Documents/DOCS/betaPlan/c#October/NET/Register/bin/Debug/net6.0/appsettings.Development.json
+/Users/fciku/Documents/DOCS/betaPlan/c#October/NET/Register/bin/Debug/net6.0/appsettings.json
+/Users/fciku/Documents/DOCS/betaPlan/c#October/NET/Register/bin/Debug/net6.0/Register.staticwebassets.runtime.json
+/Users/fciku/Documents/DOCS/betaPlan/c#October/NET/Register/bin/Debug/net6.0/Register
+/Users/fciku/Documents/DOCS/betaPlan/c#October/NET/Register/bin/Debug/net6.0/Register.deps.json
+/Users/fciku/Documents/DOCS/betaPlan/c#October/NET/Register/bin/Debug/net6.0/Register.runtimeconfig.json
+/Users/fciku/Documents/DOCS/betaPlan/c#October/NET/Register/bin/Debug/net6.0/Register.dll
+/Users/fciku/Documents/DOCS/betaPlan/c#October/NET/Register/bin/Debug/net6.0/Register.pdb
+/Users/fciku/Documents/DOCS/betaPlan/c#October/NET/Register/bin/Debug/net6.0/Humanizer.dll
+/Users/fciku/Documents/DOCS/betaPlan/c#October/NET/Register/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll
+/Users/fciku/Documents/DOCS/betaPlan/c#October/NET/Register/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/fciku/Documents/DOCS/betaPlan/c#October/NET/Register/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/fciku/Documents/DOCS/betaPlan/c#October/NET/Register/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/fciku/Documents/DOCS/betaPlan/c#October/NET/Register/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll
+/Users/fciku/Documents/DOCS/betaPlan/c#October/NET/Register/bin/Debug/net6.0/MySqlConnector.dll
+/Users/fciku/Documents/DOCS/betaPlan/c#October/NET/Register/bin/Debug/net6.0/Pomelo.EntityFrameworkCore.MySql.dll
+/Users/fciku/Documents/DOCS/betaPlan/c#October/NET/Register/obj/Debug/net6.0/Register.csproj.AssemblyReference.cache
+/Users/fciku/Documents/DOCS/betaPlan/c#October/NET/Register/obj/Debug/net6.0/Register.GeneratedMSBuildEditorConfig.editorconfig
+/Users/fciku/Documents/DOCS/betaPlan/c#October/NET/Register/obj/Debug/net6.0/Register.AssemblyInfoInputs.cache
+/Users/fciku/Documents/DOCS/betaPlan/c#October/NET/Register/obj/Debug/net6.0/Register.AssemblyInfo.cs
+/Users/fciku/Documents/DOCS/betaPlan/c#October/NET/Register/obj/Debug/net6.0/Register.csproj.CoreCompileInputs.cache
+/Users/fciku/Documents/DOCS/betaPlan/c#October/NET/Register/obj/Debug/net6.0/Register.MvcApplicationPartsAssemblyInfo.cache
+/Users/fciku/Documents/DOCS/betaPlan/c#October/NET/Register/obj/Debug/net6.0/Register.RazorAssemblyInfo.cache
+/Users/fciku/Documents/DOCS/betaPlan/c#October/NET/Register/obj/Debug/net6.0/Register.RazorAssemblyInfo.cs
+/Users/fciku/Documents/DOCS/betaPlan/c#October/NET/Register/obj/Debug/net6.0/staticwebassets.build.json
+/Users/fciku/Documents/DOCS/betaPlan/c#October/NET/Register/obj/Debug/net6.0/staticwebassets.development.json
+/Users/fciku/Documents/DOCS/betaPlan/c#October/NET/Register/obj/Debug/net6.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+/Users/fciku/Documents/DOCS/betaPlan/c#October/NET/Register/obj/Debug/net6.0/scopedcss/bundle/Register.styles.css
+/Users/fciku/Documents/DOCS/betaPlan/c#October/NET/Register/obj/Debug/net6.0/scopedcss/projectbundle/Register.bundle.scp.css
+/Users/fciku/Documents/DOCS/betaPlan/c#October/NET/Register/obj/Debug/net6.0/Register.csproj.CopyComplete
+/Users/fciku/Documents/DOCS/betaPlan/c#October/NET/Register/obj/Debug/net6.0/Register.dll
+/Users/fciku/Documents/DOCS/betaPlan/c#October/NET/Register/obj/Debug/net6.0/refint/Register.dll
+/Users/fciku/Documents/DOCS/betaPlan/c#October/NET/Register/obj/Debug/net6.0/Register.pdb
+/Users/fciku/Documents/DOCS/betaPlan/c#October/NET/Register/obj/Debug/net6.0/Register.genruntimeconfig.cache
+/Users/fciku/Documents/DOCS/betaPlan/c#October/NET/Register/obj/Debug/net6.0/ref/Register.dll
+C:\Users\USER\Desktop\Register-main\Register-main\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\USER\Desktop\Register-main\Register-main\bin\Debug\net6.0\appsettings.json
+C:\Users\USER\Desktop\Register-main\Register-main\bin\Debug\net6.0\Register.staticwebassets.runtime.json
+C:\Users\USER\Desktop\Register-main\Register-main\bin\Debug\net6.0\Register.exe
+C:\Users\USER\Desktop\Register-main\Register-main\bin\Debug\net6.0\Register.deps.json
+C:\Users\USER\Desktop\Register-main\Register-main\bin\Debug\net6.0\Register.runtimeconfig.json
+C:\Users\USER\Desktop\Register-main\Register-main\bin\Debug\net6.0\Register.dll
+C:\Users\USER\Desktop\Register-main\Register-main\bin\Debug\net6.0\Register.pdb
+C:\Users\USER\Desktop\Register-main\Register-main\bin\Debug\net6.0\Humanizer.dll
+C:\Users\USER\Desktop\Register-main\Register-main\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\USER\Desktop\Register-main\Register-main\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\USER\Desktop\Register-main\Register-main\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\USER\Desktop\Register-main\Register-main\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\USER\Desktop\Register-main\Register-main\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\USER\Desktop\Register-main\Register-main\bin\Debug\net6.0\MySqlConnector.dll
+C:\Users\USER\Desktop\Register-main\Register-main\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\USER\Desktop\Register-main\Register-main\obj\Debug\net6.0\Register.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\Register-main\Register-main\obj\Debug\net6.0\Register.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Desktop\Register-main\Register-main\obj\Debug\net6.0\Register.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\Register-main\Register-main\obj\Debug\net6.0\Register.AssemblyInfo.cs
+C:\Users\USER\Desktop\Register-main\Register-main\obj\Debug\net6.0\Register.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\Register-main\Register-main\obj\Debug\net6.0\Register.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\USER\Desktop\Register-main\Register-main\obj\Debug\net6.0\Register.RazorAssemblyInfo.cache
+C:\Users\USER\Desktop\Register-main\Register-main\obj\Debug\net6.0\Register.RazorAssemblyInfo.cs
+C:\Users\USER\Desktop\Register-main\Register-main\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\USER\Desktop\Register-main\Register-main\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\USER\Desktop\Register-main\Register-main\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\USER\Desktop\Register-main\Register-main\obj\Debug\net6.0\scopedcss\bundle\Register.styles.css
+C:\Users\USER\Desktop\Register-main\Register-main\obj\Debug\net6.0\scopedcss\projectbundle\Register.bundle.scp.css
+C:\Users\USER\Desktop\Register-main\Register-main\obj\Debug\net6.0\Register.csproj.CopyComplete
+C:\Users\USER\Desktop\Register-main\Register-main\obj\Debug\net6.0\Register.dll
+C:\Users\USER\Desktop\Register-main\Register-main\obj\Debug\net6.0\refint\Register.dll
+C:\Users\USER\Desktop\Register-main\Register-main\obj\Debug\net6.0\Register.pdb
+C:\Users\USER\Desktop\Register-main\Register-main\obj\Debug\net6.0\Register.genruntimeconfig.cache
+C:\Users\USER\Desktop\Register-main\Register-main\obj\Debug\net6.0\ref\Register.dll
+C:\Users\USER\Documents\betaPlan\44 Programime\ORM\Register-main\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\USER\Documents\betaPlan\44 Programime\ORM\Register-main\bin\Debug\net6.0\appsettings.json
+C:\Users\USER\Documents\betaPlan\44 Programime\ORM\Register-main\bin\Debug\net6.0\Register.staticwebassets.runtime.json
+C:\Users\USER\Documents\betaPlan\44 Programime\ORM\Register-main\bin\Debug\net6.0\Register.exe
+C:\Users\USER\Documents\betaPlan\44 Programime\ORM\Register-main\bin\Debug\net6.0\Register.deps.json
+C:\Users\USER\Documents\betaPlan\44 Programime\ORM\Register-main\bin\Debug\net6.0\Register.runtimeconfig.json
+C:\Users\USER\Documents\betaPlan\44 Programime\ORM\Register-main\bin\Debug\net6.0\Register.dll
+C:\Users\USER\Documents\betaPlan\44 Programime\ORM\Register-main\bin\Debug\net6.0\Register.pdb
+C:\Users\USER\Documents\betaPlan\44 Programime\ORM\Register-main\bin\Debug\net6.0\Humanizer.dll
+C:\Users\USER\Documents\betaPlan\44 Programime\ORM\Register-main\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\USER\Documents\betaPlan\44 Programime\ORM\Register-main\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\USER\Documents\betaPlan\44 Programime\ORM\Register-main\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\USER\Documents\betaPlan\44 Programime\ORM\Register-main\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\USER\Documents\betaPlan\44 Programime\ORM\Register-main\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\USER\Documents\betaPlan\44 Programime\ORM\Register-main\bin\Debug\net6.0\MySqlConnector.dll
+C:\Users\USER\Documents\betaPlan\44 Programime\ORM\Register-main\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\USER\Documents\betaPlan\44 Programime\ORM\Register-main\obj\Debug\net6.0\Register.csproj.AssemblyReference.cache
+C:\Users\USER\Documents\betaPlan\44 Programime\ORM\Register-main\obj\Debug\net6.0\Register.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Documents\betaPlan\44 Programime\ORM\Register-main\obj\Debug\net6.0\Register.AssemblyInfoInputs.cache
+C:\Users\USER\Documents\betaPlan\44 Programime\ORM\Register-main\obj\Debug\net6.0\Register.AssemblyInfo.cs
+C:\Users\USER\Documents\betaPlan\44 Programime\ORM\Register-main\obj\Debug\net6.0\Register.csproj.CoreCompileInputs.cache
+C:\Users\USER\Documents\betaPlan\44 Programime\ORM\Register-main\obj\Debug\net6.0\Register.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\USER\Documents\betaPlan\44 Programime\ORM\Register-main\obj\Debug\net6.0\Register.RazorAssemblyInfo.cache
+C:\Users\USER\Documents\betaPlan\44 Programime\ORM\Register-main\obj\Debug\net6.0\Register.RazorAssemblyInfo.cs
+C:\Users\USER\Documents\betaPlan\44 Programime\ORM\Register-main\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\USER\Documents\betaPlan\44 Programime\ORM\Register-main\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\USER\Documents\betaPlan\44 Programime\ORM\Register-main\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\USER\Documents\betaPlan\44 Programime\ORM\Register-main\obj\Debug\net6.0\scopedcss\bundle\Register.styles.css
+C:\Users\USER\Documents\betaPlan\44 Programime\ORM\Register-main\obj\Debug\net6.0\scopedcss\projectbundle\Register.bundle.scp.css
+C:\Users\USER\Documents\betaPlan\44 Programime\ORM\Register-main\obj\Debug\net6.0\Register.csproj.CopyComplete
+C:\Users\USER\Documents\betaPlan\44 Programime\ORM\Register-main\obj\Debug\net6.0\Register.dll
+C:\Users\USER\Documents\betaPlan\44 Programime\ORM\Register-main\obj\Debug\net6.0\refint\Register.dll
+C:\Users\USER\Documents\betaPlan\44 Programime\ORM\Register-main\obj\Debug\net6.0\Register.pdb
+C:\Users\USER\Documents\betaPlan\44 Programime\ORM\Register-main\obj\Debug\net6.0\Register.genruntimeconfig.cache
+C:\Users\USER\Documents\betaPlan\44 Programime\ORM\Register-main\obj\Debug\net6.0\ref\Register.dll
+C:\Users\User\Desktop\netWorks\ORMS\Register\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\User\Desktop\netWorks\ORMS\Register\bin\Debug\net6.0\appsettings.json
+C:\Users\User\Desktop\netWorks\ORMS\Register\bin\Debug\net6.0\Register.staticwebassets.runtime.json
+C:\Users\User\Desktop\netWorks\ORMS\Register\bin\Debug\net6.0\Register.exe
+C:\Users\User\Desktop\netWorks\ORMS\Register\bin\Debug\net6.0\Register.deps.json
+C:\Users\User\Desktop\netWorks\ORMS\Register\bin\Debug\net6.0\Register.runtimeconfig.json
+C:\Users\User\Desktop\netWorks\ORMS\Register\bin\Debug\net6.0\Register.dll
+C:\Users\User\Desktop\netWorks\ORMS\Register\bin\Debug\net6.0\Register.pdb
+C:\Users\User\Desktop\netWorks\ORMS\Register\bin\Debug\net6.0\Humanizer.dll
+C:\Users\User\Desktop\netWorks\ORMS\Register\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\User\Desktop\netWorks\ORMS\Register\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\User\Desktop\netWorks\ORMS\Register\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\User\Desktop\netWorks\ORMS\Register\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\User\Desktop\netWorks\ORMS\Register\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\User\Desktop\netWorks\ORMS\Register\bin\Debug\net6.0\MySqlConnector.dll
+C:\Users\User\Desktop\netWorks\ORMS\Register\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\User\Desktop\netWorks\ORMS\Register\obj\Debug\net6.0\Register.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\netWorks\ORMS\Register\obj\Debug\net6.0\Register.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\netWorks\ORMS\Register\obj\Debug\net6.0\Register.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\netWorks\ORMS\Register\obj\Debug\net6.0\Register.AssemblyInfo.cs
+C:\Users\User\Desktop\netWorks\ORMS\Register\obj\Debug\net6.0\Register.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\netWorks\ORMS\Register\obj\Debug\net6.0\Register.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\User\Desktop\netWorks\ORMS\Register\obj\Debug\net6.0\Register.RazorAssemblyInfo.cache
+C:\Users\User\Desktop\netWorks\ORMS\Register\obj\Debug\net6.0\Register.RazorAssemblyInfo.cs
+C:\Users\User\Desktop\netWorks\ORMS\Register\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\User\Desktop\netWorks\ORMS\Register\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\User\Desktop\netWorks\ORMS\Register\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\User\Desktop\netWorks\ORMS\Register\obj\Debug\net6.0\scopedcss\bundle\Register.styles.css
+C:\Users\User\Desktop\netWorks\ORMS\Register\obj\Debug\net6.0\scopedcss\projectbundle\Register.bundle.scp.css
+C:\Users\User\Desktop\netWorks\ORMS\Register\obj\Debug\net6.0\Register.csproj.CopyComplete
+C:\Users\User\Desktop\netWorks\ORMS\Register\obj\Debug\net6.0\Register.dll
+C:\Users\User\Desktop\netWorks\ORMS\Register\obj\Debug\net6.0\refint\Register.dll
+C:\Users\User\Desktop\netWorks\ORMS\Register\obj\Debug\net6.0\Register.pdb
+C:\Users\User\Desktop\netWorks\ORMS\Register\obj\Debug\net6.0\Register.genruntimeconfig.cache
+C:\Users\User\Desktop\netWorks\ORMS\Register\obj\Debug\net6.0\ref\Register.dll

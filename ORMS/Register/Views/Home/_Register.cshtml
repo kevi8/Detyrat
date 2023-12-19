@@ -1,0 +1,49 @@
+@model User
+
+
+
+
+<div class="card" style="border-radius: 15px;">
+    <div class="card-body p-5">
+        <h2 class="text-uppercase text-center mb-5">Create an account</h2>
+
+        <form asp-action="CreateUser" method="post">
+
+            <div class="form-outline mb-4">
+                <input id="form3Example1cg" class="form-control form-control-lg" asp-for="Username" />
+                <label class="form-label" for="form3Example1cg" asp-for="Username">First Name</label>
+                <span asp-validation-for="Username"></span>
+            </div>
+
+            <div class="form-outline mb-4">
+                <input type="email" id="form3Example3cg" class="form-control form-control-lg" asp-for="Email" />
+                <label class="form-label" for="form3Example3cg" asp-for="Email">Your Email</label>
+                <span asp-validation-for="Email"></span>
+            </div>
+
+            <div class="form-outline mb-4">
+                <input type="password" id="form3Example4cg" class="form-control form-control-lg" asp-for="Password" />
+                <label class="form-label" for="form3Example4cg" asp-for="Password">Password</label>
+                <span asp-validation-for="Password"></span>
+            </div>
+
+            <div class="form-outline mb-4">
+                <input type="password" id="form3Example4cdg" class="form-control form-control-lg"
+                    asp-for="PasswordConfirm" />
+                <label class="form-label" for="form3Example4cdg" asp-for="PasswordConfirm">Repeat your
+                    password</label>
+                <span asp-validation-for="PasswordConfirm"></span>
+            </div>
+
+            <div class="d-flex justify-content-center">
+                <button type="submit" value="Create User"
+                    class="btn btn-success btn-block btn-lg gradient-custom-4 text-body">Register</button>
+            </div>
+
+            <p class="text-center text-muted mt-5 mb-0">Have already an account? <a href="Home/SingIn"
+                    class="fw-bold text-body"><u>Login here</u></a></p>
+
+        </form>
+
+    </div>
+</div>

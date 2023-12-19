@@ -1,0 +1,54 @@
+@model Data
+@using Microsoft.AspNetCore.Http
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">@Model.post.Creator.Username</h5>
+            @if(Model.post.UserId == HttpContextAccessor.HttpContext.Session.GetInt32("UserId")){
+                <a asp-action="EditPost" asp-controller="Home" asp-route-id="@Model.post.PostId" class="btn btn-primary">Edit</a>
+                <a asp-action="DeletePost" asp-controller="Home" asp-route-id="@Model.post.PostId" class="btn btn-danger">Delete</a>
+                }
+            <h6 class="card-subtitle mb-2 text-muted">Created at @Model.post.CreatedAt.ToString("MMM") - @Model.post.CreatedAt.Day
+                - @Model.post.CreatedAt.Year</h6>
+            <p class="card-text">@Model.post.Content</p>
+
+    <h5>Comments: </h5>
+            @foreach (var item in @Model.post.Comments)
+            {
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">@item.User.Username</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Created at @Model.post.CreatedAt.ToString("MMM") - @Model.post.CreatedAt.Day
+                - @Model.post.CreatedAt.Year</h6>
+                        <p class="card-text">@item.Content</p>
+                        @if(item.UserId == HttpContextAccessor.HttpContext.Session.GetInt32("UserId")){
+                           
+                            <a asp-action="DeleteComment" asp-route-id="@item.CommentId" asp-controller="Home" class="card-link btn btn-danger">Delete</a>
+                            <a asp-action="EditComment" asp-route-id="@item.CommentId" asp-controller="Home" class="card-link btn btn-success">Edit</a>
+                            
+                        }
+                        
+                        
+                    </div>
+                </div>
+            }
+            @await Html.PartialAsync("AddComment", Model.comment)
+           
+
+
+        </div>
+    </div>
+</body>
+
+</html>
