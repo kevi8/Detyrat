@@ -1,0 +1,26 @@
+﻿@model Plan
+</table>
+    </div>
+      <div class="col-5">
+        <h2>Other Posts</h2>
+        <table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Creator</th>
+      <th scope="col">Content</th>
+      <th scope="col">Updated At</th>
+       <th scope="col">Nr Likes</th>
+      <th scope="col">Action</th>
+    </tr>
+  </thead>
+  <tbody>
+@foreach(var item in ViewBag.myPlans){
+    <tr>
+      <th scope="row">1</th>
+      <td>@item.Creator.WedderOne</td>
+      <td><a asp-action="ShowComments" asp-route-id="@item.PlanId">@item.WedderTwo </a></td>
+      <td>@item.End</td>
+      <td> @item.Guest.Count</td> 
+    </tr>
+}

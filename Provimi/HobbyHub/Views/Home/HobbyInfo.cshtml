@@ -1,0 +1,5 @@
+@model Hobbie 
+<h3>@Model.Name</h3>
+<h2>@Model.Content</h2>
+
+<a asp-action="EditHobby" asp-controller="Home" asp-route-id="@Model.HobbieId" class="btn btn-primary">Edit</a>

@@ -47,9 +47,9 @@ public class HomeController : Controller
         ViewBag.userId =userId;
         ViewBag.userPost = _context.Posts.Where(e=>e.UserId ==userId ).ToList();
         ViewBag.otherPost = _context.Posts.Include(e=>e.Creator).Include(e=>e.Likes).Where(e=>e.UserId != userId).ToList();
-        // ViewBag.useri = _context.Users.FirstOrDefault(e=>e.UserId== userId);
+        ViewBag.useri = _context.Users.FirstOrDefault(e=>e.UserId== userId);
         return View();
-    }
+    } 
 
     public IActionResult Privacy()
     {

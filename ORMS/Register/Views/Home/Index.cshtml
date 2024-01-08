@@ -27,16 +27,16 @@
     </tr>
   </thead>
   <tbody>
-@foreach(var item in ViewBag.userPost){
-    <tr>
-      <th scope="row">1</th>
-      <td>ME</td>
-      <td><a asp-action="ShowComments" asp-route-id="@item.PostId">@item.Content </a></td>
-      <td>@item.UpdatedAt</td>
-    </tr>
-}
+  @foreach(var item in ViewBag.userPost){
+      <tr>
+        <th scope="row">1</th>
+        <td>ME</td>
+        <td><a asp-action="ShowComments" asp-route-id="@item.PostId">@item.Content </a></td>
+        <td>@item.UpdatedAt</td>
+      </tr>
+  }
     
-  
+   
   </tbody>
 </table>
     </div>
