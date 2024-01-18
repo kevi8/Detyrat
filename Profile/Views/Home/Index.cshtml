@@ -1,0 +1,26 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h3>My Network</h3>
+<div class="row-6">
+    <table class="table">   
+        <thead>
+            <tr>
+                <th scope="col">Name</th>
+                
+
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in ViewBag.netWorks)
+            {
+                <tr>
+                    <td><a asp-action="Details" asp-route-id="@item.NetId"> @item.Name</a></td>
+
+                </tr>
+            }
+            
+        </tbody>
+    </table>
+</div>

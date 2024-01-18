@@ -252,3 +252,32 @@ public IActionResult PostComment(Comment comment)
     }
     
 }
+
+
+
+
+
+
+
+[HttpGet("Like")]
+    public IActionResult Connect(int id){
+        // Post posti = _context.Posts.FirstOrDefault(e=>e.PostId
+        Like newLike = new Like();
+        newLike.PostId = id;
+        newLike.UserId = HttpContext.Session.GetInt32("UserId");
+        _context.Add(NewConnected);
+        _context.SaveChanges();
+
+        return RedirectToAction("Index");
+    }
+        [HttpGet("unlike")]
+    public IActionResult unlike(int id){
+        // Post posti = _context.Posts.FirstOrDefault(e=>e.PostId
+        int? UserId = HttpContext.Session.GetInt32("UserId");
+        Like likengaDb = _context.Likes.FirstOrDefault(e=> e.PostId== id && e.UserId== UserId);
+        _context.Remove(likengaDb);
+    
+        _context.SaveChanges();
+
+        return RedirectToAction("Index");
+    }

@@ -1,0 +1,43 @@
+﻿@model Net
+@{
+    ViewData["Title"] = "All User";
+}
+
+<div>
+    <form asp-action="CreateNet" method="post">
+
+        <div>
+            <label asp-for="Name"></label>
+            <input asp-for="Name">
+            <span asp-validation-for="Name"></span>
+
+        </div>
+        <div>
+            <label asp-for="Description"></label>
+            <input asp-for="Description">
+            <span asp-validation-for="Description"></span>
+        </div>
+        <input type="submit" value="Create">
+    </form>
+</div>
+<div>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Action</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in ViewBag.netWorks)
+            {
+                <tr>
+                    <td><a asp-action="Details" asp-route-id="@item.NetId"> @item.Name</a></td>
+                    <td><a asp-action="Shko">Connect</a></td>
+                </tr>
+            }
+            
+        </tbody>
+    </table>
+</div>

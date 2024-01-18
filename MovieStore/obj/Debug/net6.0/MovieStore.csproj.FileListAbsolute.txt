@@ -1,0 +1,8 @@
+C:\Users\User\Desktop\netWorks\MovieStore\obj\Debug\net6.0\MovieStore.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\netWorks\MovieStore\obj\Debug\net6.0\MovieStore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\netWorks\MovieStore\obj\Debug\net6.0\MovieStore.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\netWorks\MovieStore\obj\Debug\net6.0\MovieStore.AssemblyInfo.cs
+C:\Users\User\Desktop\netWorks\MovieStore\obj\Debug\net6.0\MovieStore.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\netWorks\MovieStore\obj\Debug\net6.0\MovieStore.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\User\Desktop\netWorks\MovieStore\obj\Debug\net6.0\MovieStore.RazorAssemblyInfo.cache
+C:\Users\User\Desktop\netWorks\MovieStore\obj\Debug\net6.0\MovieStore.RazorAssemblyInfo.cs
