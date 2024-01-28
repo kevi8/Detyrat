@@ -1,0 +1,222 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+body {
+	font-family: 'Orbitron', sans-serif;
+	margin-bottom: 60px;
+	  background-image: url('../images/hero-background-ecommerce.jpg');
+	  background-size: cover;
+	color: white;
+  }
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem rgb(240, 114, 114), 0 0 0 0.25rem #258cfb;
+}
+
+.cart-no{
+	background-color: gray;
+	padding-left: 0.7em;
+	padding-right: 0.7em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	border-radius: 70%;
+  }
+html {
+  position: relative;
+  min-height: 100%;
+}
+.s-logo{
+	width: 6em;
+  }
+body {
+  margin-bottom: 60px;
+}
+
+body{margin-top:20px;}
+
+.card img{
+	height: 15em;
+	  border-radius-top: 20px;
+  }
+
+	/* USER LIST TABLE */
+	.user-list tbody td > img {
+		position: relative;
+		max-width: 50px;
+		float: left;
+		margin-right: 15px;
+	}
+	.user-list tbody td .user-link {
+		display: block;
+		font-size: 1.25em;
+		padding-top: 3px;
+		margin-left: 60px;
+	}
+	.user-list tbody td .user-subhead {
+		font-size: 0.875em;
+		font-style: italic;
+	}
+
+	/* TABLES */
+	.table {
+		border-collapse: separate;
+	}
+	.table-hover > tbody > tr:hover > td,
+	.table-hover > tbody > tr:hover > th {
+		background-color: #b6bbbd;
+	}
+	.table thead > tr > th {
+		border-bottom: 1px solid #b6bbbd;
+		padding-bottom: 0;
+	}
+	.table tbody > tr > td {
+		font-size: 0.875em;
+		background: #b6bbbd;
+		border-top: 10px solid #b6bbbd;
+		vertical-align: middle;
+		padding: 12px 8px;
+	}
+	.table tbody > tr > td:first-child,
+	.table thead > tr > th:first-child {
+		padding-left: 20px;
+	}
+	.table thead > tr > th span {
+		border-bottom: 2px solid #b6bbbd;
+		display: inline-block;
+		padding: 0 5px;
+		padding-bottom: 5px;
+		font-weight: normal;
+	}
+	.table thead > tr > th > a span {
+		color: #2f9f92;
+	}
+	.table thead > tr > th > a span:after {
+		content: "\f0dc";
+		font-family: FontAwesome;
+		font-style: normal;
+		font-weight: normal;
+		text-decoration: inherit;
+		margin-left: 5px;
+		font-size: 0.75em;
+	}
+	.table thead > tr > th > a.asc span:after {
+		content: "\f0dd";
+	}
+	.table thead > tr > th > a.desc span:after {
+		content: "\f0de";
+	}
+	.table thead > tr > th > a:hover span {
+		text-decoration: none;
+		color: #b6bbbd;
+		border-color: #b6bbbd;
+	}
+	.table.table-hover tbody > tr > td {
+		-webkit-transition: background-color 0.15s ease-in-out 0s;
+		transition: background-color 0.15s ease-in-out 0s;
+	}
+	.table tbody tr td .call-type {
+		display: block;
+		font-size: 0.75em;
+		text-align: center;
+	}
+	.table tbody tr td .first-line {
+		line-height: 1.5;
+		font-weight: 400;
+		font-size: 1.125em;
+	}
+	.table tbody tr td .first-line span {
+		font-size: 0.875em;
+		color: #969696;
+		font-weight: 300;
+	}
+	.table tbody tr td .second-line {
+		font-size: 0.875em;
+		line-height: 1.2;
+	}
+	.table a.table-link {
+		margin: 0 5px;
+		font-size: 1.125em;
+	}
+	.table a.table-link:hover {
+		text-decoration: none;
+		color: #2aa493;
+	}
+	.table a.table-link.danger {
+		color: #be3636;
+	}
+	.table a.table-link.danger:hover {
+		color: #f40e06;
+	}
+
+	.table-products tbody > tr > td {
+		background: none;
+		border: none;
+		border-bottom: 1px solid #ebebeb;
+		-webkit-transition: background-color 0.15s ease-in-out 0s;
+		transition: background-color 0.15s ease-in-out 0s;
+		position: relative;
+	}
+	.table-products tbody > tr:hover > td {
+		text-decoration: none;
+		background-color: #f6f6f6;
+	}
+	.table-products .name {
+		display: block;
+		font-weight: 600;
+		padding-bottom: 7px;
+	}
+	.table-products .price {
+		display: block;
+		text-decoration: none;
+		width: 50%;
+		float: left;
+		font-size: 0.875em;
+	}
+	.table-products .price > i {
+		color: #8dc859;
+	}
+	.table-products .warranty {
+		display: block;
+		text-decoration: none;
+		width: 50%;
+		float: left;
+		font-size: 0.875em;
+	}
+	.table-products .warranty > i {
+		color: #f1c40f;
+	}
+	.table tbody > tr.table-line-fb > td {
+		background-color: #9daccb;
+		color: #9fbe9f;
+	}
+	.table tbody > tr.table-line-twitter > td {
+		background-color: #9fccff;
+		color: #25b02c;
+	}
+	.table tbody > tr.table-line-plus > td {
+		background-color: #eea59c;
+		color: #22b062;
+	}
+	.table-stats .status-social-icon {
+		font-size: 1.9em;
+		vertical-align: bottom;
+	}
+	.table-stats .table-line-fb .status-social-icon {
+		color: #3a5ca5;
+	}
+	.table-stats .table-line-twitter .status-social-icon {
+		color: #5885b8;
+	}
+	.table-stats .table-line-plus .status-social-icon {
+		color: #a75d54;
+	}
+
+
+
+	

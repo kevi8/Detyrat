@@ -1,0 +1,64 @@
+@model PaginateViewModel
+@using Microsoft.AspNetCore.Http
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+<header>
+  <!-- Jumbotron -->
+
+  <!-- Jumbotron -->
+
+  <!-- Navbar -->
+
+  <!-- Navbar -->
+  <!-- Jumbotron -->
+  <div class="bg-primary text-white py-5">
+    <div class="container py-5">
+      <h1>
+        Best products & <br />
+        brands in our store
+      </h1>
+      <p>
+        Trendy Products, Factory Prices, Excellent Service
+      </p>
+      <button type="button" class="btn btn-light shadow-0 text-primary pt-2 border border-white" >
+        <a asp-action="Register" asp-controller="Home">Client Log In</a>
+      </button>
+      <button type="button" class="btn btn-light shadow-0 text-primary pt-2 border border-white">
+        <span class="pt-1"><a asp-action="SRegister" asp-controller="Store">Store Log In</a></span>
+      </button>
+    </div>
+  </div>
+  <!-- Jumbotron -->
+</header>
+<!-- Products -->
+<section>
+  <div class="container my-5">
+    <header class="mb-4">
+      <h3>New products</h3>
+    </header>
+
+     <div class="container text-center">
+        @foreach (var item in Model.Products)
+        {
+            <div class="row">
+                <div class="col-lg-4 col-md-12 mb-4">
+                    <div class="bg-image hover-zoom ripple shadow-1-strong rounded">
+                        <img src="~/uploads/@item.ImageFileName" class="w-100" />
+                        <a asp-action="ItemDetails" asp-route-id="@item.ProductId">
+                            <div class="mask" style="background-color: rgba(0, 0, 0, 0.3);">
+                                <div class="d-flex justify-content-start align-items-start h-100">
+                                    <h5><span class="badge bg-light pt-2 ms-3 mt-3 text-dark">$@item.Price</span></h5>
+                                </div>
+                            </div>
+                            <div class="hover-overlay">
+                                <div class="mask" style="background-color: rgba(253, 253, 253, 0.15);"></div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        }
+    </div>
+</section>
+<!-- Products -->
+

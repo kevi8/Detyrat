@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("JumpStarter")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ce9e42f6b8412478841e2bc55844f9b4014f1520")]
 [assembly: System.Reflection.AssemblyProductAttribute("JumpStarter")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JumpStarter")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

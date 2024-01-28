@@ -1,0 +1,50 @@
+@model DataOne
+@using Microsoft.AspNetCore.Http
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="path/to/purchase.js"></script>
+
+<div class="d-flex justify-content-around">
+    <div class="col-6">
+        <img class="card-img-top" src="~/uploads/@Model.Product.ImageFileName" alt="Card image cap">
+    </div>
+
+
+    <div class="col-lg-8">
+        <div class="right-side-pro-detail border p-3 m-0">
+            <div class="row">
+                <div class="col-lg-12">
+                    <span>@Model.Product.Name</span>
+                    <p class="m-0 p-0">@Model.Product.Brand</p>
+                </div>
+                <div class="col-lg-12">
+                    <p class="m-0 p-0 price-pro">@Model.Product.Price</p>
+                    <hr class="p-0 m-0">
+                </div>
+                <div class="col-lg-12 pt-2">
+                    <h5>Product Detail</h5>
+                    <span>@Model.Product.Description</span>
+                    <hr class="m-0 pt-2 mt-2">
+                </div>
+                <div class="col-lg-12">
+                    <p class="tag-section"><strong>Tag : </strong>@Model.Product.category</p>
+                </div>
+        <form asp-action="Purchase" method="post" asp-route-id="@Model.Product.ProductId" id="purchaseForm">
+            <input type="hidden" value="@Model.Product.ProductId" asp-for="@Model.Purchase.ProductId">
+            <input type="hidden" value="@HttpContextAccessor.HttpContext.Session.GetInt32("KlientId")" asp-for="@Model.Purchase.KlientId">
+            <div class="form-group">
+                <label asp-for="@Model.Purchase.Quantity" class="text-white font-weight-bold"></label>
+                <input asp-for="@Model.Purchase.Quantity" class="form-control bg-dark text-white" id="quantityInput" aria-describedby="emailHelp" min="1" onchange="updateCartQuantity()">
+                <span asp-validation-for="@Model.Purchase.Quantity" class="text-danger"></span>
+                <span asp-validation-for="@Model.Cart.Quantity" class="text-danger"></span>
+            </div>
+            <button type="button" class="mt-4 btn btn-success w-100 p-3" onclick="confirmPurchase(@Model.Product.Quantity,event)">Buy</button>
+        </form>
+        <form asp-action="AddToCart" method="post" asp-route-id="@Model.Product.ProductId" id="cartForm">
+        <input type="hidden" asp-for="@Model.Cart.Quantity" id="cartQuantity" >
+         <button type="button" class="mt-4 btn btn-outline-success w-100 p-3" onclick="confirmCart(@Model.Product.Quantity,event)">Add To Cart</button>
+        </form>
+            </div>
+        </div>
+    </div>
